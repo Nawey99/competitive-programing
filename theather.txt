@@ -1,0 +1,16 @@
+#include<iostream>
+#include<math.h>
+
+using namespace std;
+
+int main()
+{
+    double n,m,a;
+    cin>>n>>m>>a;
+    
+    long long first=ceil(n/a);
+    long long second=ceil(m/a);
+    long long result=second * first;
+    
+    cout<<result<<endl
+}
